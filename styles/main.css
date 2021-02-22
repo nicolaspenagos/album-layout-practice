@@ -110,3 +110,12 @@ strong {
 a {
     text-decoration: none
 }
+
+@media(max-width: 700px) {
+    .album {
+        margin: 20px;
+    }
+    .album__info {
+        flex-direction: column;
+    }
+}
