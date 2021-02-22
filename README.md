@@ -1,5 +1,5 @@
 # album-layout-practice
-Very simple html and css pratice.
+Very simple html and css practice.
 
 https://nicolaspenagos.github.io/album-layout-practice/
 
