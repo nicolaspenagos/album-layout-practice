@@ -118,4 +118,10 @@ a {
     .album__info {
         flex-direction: column;
     }
+    .album__image {
+        order: 1;
+    }
+    .album__description {
+        order: 2;
+    }
 }
