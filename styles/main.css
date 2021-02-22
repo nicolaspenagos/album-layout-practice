@@ -1,0 +1,112 @@
+/**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * @author Nicolás Penagos Montoya
+ * nicolas.penagosm98@gmail.com
+ **~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(255, 253, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+    ;
+}
+
+.album {
+    width: 830px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(46, 46, 46, 1) 0%, rgba(21, 21, 21, 1) 100%);
+    padding: 20px;
+}
+
+.album__name {
+    color: white;
+    font-size: xx-large;
+    margin: 0;
+}
+
+.album__author {
+    font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    font-size: larger;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-left: 2px;
+}
+
+.album__author--link {
+    margin: 0;
+    color: white;
+}
+
+.album__info {
+    border: 1px solid rgb(128, 128, 128);
+    border-style: dashed;
+    border-left: 0px;
+    border-right: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.album__description {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.album__image {
+    height: 257px;
+}
+
+.album_button {
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: rgb(234, 41, 55);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 164px;
+}
+
+.album__ytlink {
+    width: 30px;
+    margin: 10px;
+}
+
+.album__linkt {
+    margin-bottom: 2px;
+}
+
+li {
+    color: white;
+}
+
+p {
+    margin-top: 0px;
+    color: white;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+strong {
+    font-size: large;
+    font-weight: 900;
+    color: white;
+}
+
+a {
+    text-decoration: none
+}
