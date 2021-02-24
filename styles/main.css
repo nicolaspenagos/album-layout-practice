@@ -30,6 +30,7 @@ body {
     border-radius: 10px;
     background: linear-gradient(90deg, rgba(46, 46, 46, 1) 0%, rgba(21, 21, 21, 1) 100%);
     padding: 20px;
+    margin: 20px;
 }
 
 .album__name {
@@ -112,9 +113,6 @@ a {
 }
 
 @media(max-width: 700px) {
-    .album {
-        margin: 20px;
-    }
     .album__info {
         flex-direction: column;
     }
